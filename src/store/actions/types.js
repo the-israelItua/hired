@@ -1,0 +1,17 @@
+export const types = {
+  authenticated: "LOGIN_AUTHENTICATED",
+  loginError: "LOGIN_ERROR",
+  signUpauthenticated: "SIGNUP_AUTHENTICATED",
+  signUpError: "SIGNUP_ERROR",
+  getJobs: "GET_JOBS",
+  getSingleJob: "GET_JOB_BY_ID",
+  getStarredJobs: "GET_STARRED_JOBS",
+  starJob: "STAR_JOB",
+  clearStarredJobs: "CLEAR_STARRED_JOBS",
+  starJobErr: "STAR_JOB_ERROR",
+  getTopJobs: "GET_TOP_JOBS",
+  getTopJobsErr: "GET_TOP_JOBS_ERROR",
+  submitProfile: "SUBMIT_PROFILE",
+  submitProflieErr: "SUBMIT_PROFILE_ERROR",
+  switchPage: "SWITCH_PAGE",
+};

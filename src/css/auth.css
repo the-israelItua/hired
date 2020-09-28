@@ -1,0 +1,22 @@
+.auth .makeStyles-root-1 .MuiTypography-h5 {
+  color: green;
+  margin-bottom: 2rem;
+  font-weight: 600 !important;
+}
+
+.auth .Mui-focused {
+  color: green !important;
+}
+
+.auth .MuiInput-underline:after {
+  border-bottom: 2px solid green !important;
+}
+
+.auth .MuiTypography-body2 a {
+  color: green;
+}
+
+.auth .MuiButton-contained {
+  background-color: green !important;
+  color: white !important;
+}

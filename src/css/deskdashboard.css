@@ -1,0 +1,150 @@
+.desk-filter {
+  padding: 1rem 3rem;
+  position: fixed;
+  z-index: 500;
+  background: whitesmoke;
+  width: 100%;
+}
+
+.job-list {
+  margin-top: 10rem;
+  margin-left: 2vw !important;
+  background: whitesmoke;
+}
+
+.job-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 5%;
+  margin: 1rem 0;
+  background: white;
+  box-shadow: 1px -1px 5px lightgrey;
+  width: 100%;
+  overflow-y: scroll;
+}
+a {
+  text-decoration: none;
+}
+.job-item h3 {
+  color: black;
+  margin: 0.3rem 0;
+}
+.job-item p {
+  color: lightgrey;
+}
+
+.desk-sidebar {
+  padding-right: 1rem;
+  background: whitesmoke;
+  height: 100%;
+  position: fixed;
+  z-index: 600;
+}
+
+.desk-sidebar .logo {
+  height: 20vh !important;
+  background: white;
+  border-bottom: 1px solid lightgrey;
+  color: green;
+  padding: 3rem;
+}
+
+.desk-sidebar .list {
+  width: "100%";
+  max-width: 360;
+  background-color: white;
+  height: 70vh !important;
+}
+
+.desk-sidebar .bottom-list {
+  padding-left: 3.5rem;
+}
+
+.desk-sidebar .MuiListItem-button .current {
+  color: green;
+}
+
+.desk-sidebar .current .MuiTypography-body1 {
+  font-weight: 800 !important;
+}
+.desk-sidebar .card {
+  max-width: 345;
+  bottom: "2%";
+  border-top: 1px solid lightgrey;
+}
+
+.desk-details {
+  display: flex;
+  flex-direction: column;
+  z-index: 600;
+  min-height: 100%;
+  position: fixed;
+  padding: 0 2rem;
+  background: white;
+  overflow-y: scroll !important;
+  top: 0;
+  bottom: 0;
+}
+
+.desk-details .home {
+  left: 0;
+  top: 10vh;
+  color: grey;
+}
+.desk-details .company {
+  margin: 2rem 0;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.desk-details .company .MuiTypography-h5 {
+  font-weight: 600 !important;
+  margin: 0.6rem 0;
+  color: rgb(68, 67, 67);
+}
+
+.desk-details .company .MuiTypography-body2 {
+  color: lightgray;
+}
+.desk-details .MuiAvatar-rounded {
+  width: 5rem !important;
+  height: 5rem !important;
+}
+
+.desk-details .role {
+  margin: 2rem 0;
+  border-bottom: 0.5px solid lightgrey;
+}
+
+.desk-details .role .bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.desk-details .role .MuiTypography-body2 {
+  color: lightgray;
+}
+
+.desk-details .description .MuiTypography-h5 {
+  margin: 1rem 0;
+}
+
+.desk-details .description {
+  color: grey;
+}
+
+.desk-details .description .MuiTypography-body2 {
+  color: green;
+  font-weight: 600 !important;
+  margin: 1rem 0;
+}
+
+.desk-details .button {
+  margin: "1rem 0";
+  padding: "1rem";
+  background: "black";
+  width: "10rem";
+  color: "white";
+}
